@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "functions": {
+    "api/firebase-proxy.js": {
+      "runtime": "nodejs18.x"
+    }
+  },
+  "routes": [
+    {
+      "src": "/api/firebase-proxy",
+      "dest": "/api/firebase-proxy.js"
+    }
+  ]
+}
